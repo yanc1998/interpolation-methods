@@ -63,8 +63,8 @@ def load_data():
                 print(polyT(cord_e[0], cord_e[1]))
                 print(f'viento interpoalado en cordenadas {cord_e} estacion {cord_names[i]}')
                 print(polyW(cord_e[0], cord_e[1]))
-                # Graph(long[:4], lat[:4], tempC[:4])
-
+                Graph(close_x, close_y, temp)
+                Graph(close_xw, close_yw, wind)
 
 
 if __name__ == '__main__':
